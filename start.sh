@@ -1,16 +1,16 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         ::::::::             #
-#    test.sh                                            :+:    :+:             #
+#    start.sh                                           :+:    :+:             #
 #                                                      +:+                     #
 #    By: swofferh <swofferh@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/12/16 17:46:43 by swofferh      #+#    #+#                  #
-#    Updated: 2022/03/15 16:42:36 by swofferh      ########   odam.nl          #
+#    Updated: 2022/03/17 11:32:29 by swofferh      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
-source pretty.sh
+source srcs/pretty.sh
 
 echo " ---------------------------------------"
 echo "|					|"
@@ -31,7 +31,7 @@ read -r -p "    Question: are you ready? [y/n]" input
 
 case $input in
 	[yY])
-		sh srcs/go.sh
+		sh go.sh
 	;;
 	[nN])
 		echo "	Ok, goodbye ;)"
