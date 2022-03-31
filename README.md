@@ -1,4 +1,4 @@
 # supershell
-Testing framework for 42's Minishell project.
+Starting up a testing framework for 42's Minishell project.
 (Under progress)
 
