@@ -1,3 +1,4 @@
+0
 INC
 Makefile
 OBJ
@@ -5,6 +6,7 @@ SRC
 ft_printf
 libft
 minishell
+0
 INC
 Makefile
 OBJ
@@ -12,3 +14,17 @@ SRC
 ft_printf
 libft
 minishell
+README.md
+errors.sh
+go.sh
+minishell
+output
+srcs
+start.sh
+README.md
+errors.sh
+go.sh
+minishell
+output
+srcs
+start.sh
